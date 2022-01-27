@@ -11,21 +11,21 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'moody',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'good morning!',
+  greetingAfternoon: 'time 4 the grind,',
+  greetingEvening: 'evenin mlady',
+  greetingNight: 'go to bed >:(',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: 'api.openweathermap.org/data/2.5/weather?zip={20011},{us}&appid={0c9ab5854945b67983afb64b695ab833}',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
