@@ -4,7 +4,7 @@
 // ╚═╝╚═╝╝╚╝ ╩ ╚═╝ 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@100;300;400;700&display=swap');
 
 /* V A R I A B L E S */
 
@@ -26,23 +26,23 @@
   --sfg: #3a3a3a; /* Sceondary Foreground color */
 
   /* Image background  */
-  --imgbg: url(assets/pixelartcliff.gif);
+  --imgbg: url(assets/hideaway.gif);
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.70)
   ); /* Filter color */
 }
 
 /* Dark theme  */
 .darktheme {
-  --accent: #61b0f1; /* Hover color */
+  --accent: #cf6170; /* Hover color */
   --bg: #19171a; /* Background color */
   --sbg: #201e21; /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.15)
   ); /* Filter color */
 }
 
@@ -52,7 +52,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'rajdhani', sans-serif;
   transition: 0.2s ease-in-out;
 }
 
