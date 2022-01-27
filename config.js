@@ -12,9 +12,9 @@ const CONFIG = {
 
   // General
   name: 'moody',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'good morning',
@@ -40,8 +40,8 @@ const CONFIG = {
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: true,
-  hourDarkThemeActive: '00:00',
-  hourDarkThemeInactive: '00:00',
+  hourDarkThemeActive: '17:00',
+  hourDarkThemeInactive: '07:00',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -51,39 +51,40 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'canvas',
+      icon: 'book-open',
+      link: 'https://utah.instructure.com/?login_success=1',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'discord',
+      icon: 'message-square',
+      link: 'https://discord.com/channels/@me/762523398378749992',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'docs',
+      icon: 'file-text',
+      link: 'https://docs.google.com/document/u/0/',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'drive',
+      icon: 'cloud',
+      link: 'https://drive.google.com/drive/my-drive',
+
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'tumblr',
+      icon: 'repeat',
+      link: 'https://www.tumblr.com/dashboard',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'slides',
+      icon: 'film',
+      link: 'https://docs.google.com/presentation/u/0/',
     },
   ],
 
@@ -92,27 +93,27 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'headphones',
+  secondListIcon: 'briefcase',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'youtube',
+        link: 'https://www.youtube.com/?gl=US',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'netflix',
+        link: 'https://www.netflix.com/browse',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'xfinity',
+        link: 'https://www.xfinity.com/stream/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'twitch',
+        link: 'https://www.twitch.tv/directory/following',
       },
     ],
     secondList: [
@@ -121,16 +122,16 @@ const CONFIG = {
         link: 'https://linkedin.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'outlook',
+        link: 'https://outlook.live.com/mail/inbox',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'acnsl',
+        link: 'https://acnsl.net/meet-the-acnsl-team/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'calendar',
+        link: 'https://calendar.google.com/calendar/r',
       },
     ],
   },
