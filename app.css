@@ -20,7 +20,7 @@
   /* Light theme  */
   --accent: #a786b5; /* Hover color */
   --bg: #f5f5f5; /* Background color */
-  --sbg: (255, 255, 255, .10); /* Cards color */
+  --sbg: (255, 255, 255, .9); /* Cards color */
 
   --fg: #0d0b0d; /* Foreground color- text */
   --sfg: #0d0b0d; /* Secondary Foreground color- text */
@@ -29,7 +29,7 @@
   --imgbg: url(assets/hideaway.gif);
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.80),
-    rgba(186, 40, 30, 0.20)
+    rgba(186, 40, 30, 0.25)
   ); /* Filter color */
 }
 
