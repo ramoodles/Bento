@@ -10,10 +10,10 @@
 
 :root {
   /* Fonts  */
-  --fsg: 12vh; /* Time and Greetings */
+  --fsg: 16vh; /* Time and Greetings */
   --fsm: 8vh; /* Date */
   --fss: 5vh; /* Greetings and Weather widger */
-  --fses: 3vh; /* Links List */
+  --fses: 2vh; /* Links List */
 
   --iconsize: 3vh;
 
@@ -135,8 +135,8 @@ body {
 
 .date {
   display: flex;
-  align-items: right;
-  justify-content: center;
+  align-items: center;
+  justify-content: right;
   margin-top: 30px;
 }
 
@@ -156,14 +156,14 @@ body {
 #separator,
 #minutes {
   font-size: var(--fsg);
-  font-weight: bolder;
+  font-weight: 300;
   color: var(--fg);
 }
 
 #month,
 #day {
   font-size: var(--fsm);
-  font-weight: 300;
+  font-weight: bolder;
   color: var(--fg);
 }
 
