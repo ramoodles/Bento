@@ -22,27 +22,7 @@ const CONFIG = {
   greetingEvening: 'evenin mlady',
   greetingNight: 'go to bed >:(',
 
-  // Weather
-  weatherKey: '0c9ab5854945b67983afb64b695ab833',
-  weatherIcons: 'White', // 'Nord', 'Dark', 'White','OneDark'
-  weatherUnit: 'F', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
-
-  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '38.907192',
-  defaultLongitude: '-77.036873',
-
-  // Autochange
-  autoChangeTheme: true,
-
-  // Autochabge by OS
-  changeThemeByOS: false, 
-
-  // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
-  hourDarkThemeActive: '17:00',
-  hourDarkThemeInactive: '07:00',
-
+  
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
   // └─┘┴ ┴┴└──┴┘└─┘
@@ -133,6 +113,28 @@ const CONFIG = {
         name: 'calendar',
         link: 'https://calendar.google.com/calendar/r',
       },
-    ],
+    ],    
   },
+  
+  // Weather
+  weatherKey: '0c9ab5854945b67983afb64b695ab833',
+  weatherIcons: 'White', // 'Nord', 'Dark', 'White','OneDark'
+  weatherUnit: 'F', // 'F', 'C'
+  language: 'en', // More languages in https://openweathermap.org/current#multi
+
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '38.907192',
+  defaultLongitude: '-77.036873',
+
+  // Autochange
+  autoChangeTheme: true,
+
+  // Autochabge by OS
+  changeThemeByOS: false, 
+
+  // Autochange by hour options (24hrs format, string must be in: hh:mm)
+  changeThemeByHour: true,
+  hourDarkThemeActive: '17:00',
+  hourDarkThemeInactive: '07:00',
+
 };
