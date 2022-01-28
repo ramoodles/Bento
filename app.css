@@ -10,7 +10,7 @@
 
 :root {
   /* Fonts  */
-  --fsg: 16vh; /* Time and Greetings */
+  --fsg: 18vh; /* Time and Greetings */
   --fsm: 12vh; /* Date */
   --fss: 4vh; /* Greetings and Weather widget */
   --fses: 2vh; /* Links List */
@@ -37,7 +37,7 @@
 .darktheme {
   --accent: #cf6170; /* Hover color */
   --bg: #19171a; /* Background color */
-  --sbg: rgba(13, 11, 13, .80); /* Cards color */
+  --sbg: rgba(8, 7, 8, .80); /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgbg: url(assets/citynighttime.gif);
@@ -95,8 +95,8 @@ body {
 }
 
 .container {
-  width: 145vh;
-  height: 85vh;
+  width: 115vh;
+  height: 115vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -135,7 +135,7 @@ body {
 
 .date {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: right;
   margin-top: 30px;
 }
@@ -163,7 +163,7 @@ body {
 #month,
 #day {
   font-size: var(--fsm);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--fg);
 }
 
