@@ -129,7 +129,7 @@ body {
   grid-row: 1 / span 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
+ /* align-items: center; */
   justify-content: center;
 }
 
@@ -144,12 +144,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  order:3;
 }
 
 .clock {
   display: flex;
   align-items: center;
   justify-content: center;
+  order:0;
 }
 
 #hour,
