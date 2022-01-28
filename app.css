@@ -28,7 +28,7 @@
   /* Image background  */
   --imgbg: url(assets/hideaway.gif);
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.60),
+    rgba(255, 255, 255, 0.75),
     rgba(186, 40, 30, 0.10)
   ); /* Filter color */
 }
