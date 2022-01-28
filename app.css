@@ -11,8 +11,8 @@
 :root {
   /* Fonts  */
   --fsg: 16vh; /* Time and Greetings */
-  --fsm: 8vh; /* Date */
-  --fss: 5vh; /* Greetings and Weather widger */
+  --fsm: 12vh; /* Date */
+  --fss: 4vh; /* Greetings and Weather widget */
   --fses: 2vh; /* Links List */
 
   --iconsize: 3vh;
@@ -22,8 +22,8 @@
   --bg: #f5f5f5; /* Background color */
   --sbg: #e4e6e6; /* Cards color */
 
-  --fg: #141214; /* Foreground color- text */
-  --sfg: #141214; /* Secondary Foreground color- text */
+  --fg: #0d0b0d; /* Foreground color- text */
+  --sfg: #0d0b0d; /* Secondary Foreground color- text */
 
   /* Image background  */
   --imgbg: url(assets/hideaway.gif);
@@ -37,7 +37,7 @@
 .darktheme {
   --accent: #cf6170; /* Hover color */
   --bg: #19171a; /* Background color */
-  --sbg: #141214; /* Cards color */
+  --sbg: rgba(13, 11, 13, .80); /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgbg: url(assets/citynighttime.gif);
@@ -106,13 +106,13 @@ body {
 
 .card {
   background-color: var(--sbg);
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.42);
   border-radius: 5px;
 }
 
 .card:hover {
   transform: translateY(-0.2rem);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.32);
 }
 
 .timeBlock {
@@ -163,7 +163,7 @@ body {
 #month,
 #day {
   font-size: var(--fsm);
-  font-weight: bolder;
+  font-weight: bold;
   color: var(--fg);
 }
 
@@ -173,7 +173,7 @@ body {
 
 #greetings {
   font-size: var(--fss);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--fg);
 }
 
@@ -184,7 +184,7 @@ body {
 
 .weatherValue p {
   font-size: var(--fss);
-  font-weight: bolder;
+  font-weight: bold;
   margin-left: 15px;
   color: var(--fg);
 }
