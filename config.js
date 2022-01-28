@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'moody',
+  name: '_',
   imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: true,
