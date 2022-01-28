@@ -12,8 +12,8 @@
   /* Fonts  */
   --fsg: 12vh; /* Time and Greetings */
   --fsm: 8vh; /* Date */
-  --fss: 3vh; /* Greetings and Weather widger */
-  --fses: 2vh; /* Links List */
+  --fss: 5vh; /* Greetings and Weather widger */
+  --fses: 3vh; /* Links List */
 
   --iconsize: 3vh;
 
@@ -134,7 +134,7 @@ body {
 
 .date {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   margin-top: 30px;
 }
@@ -162,7 +162,7 @@ body {
 #month,
 #day {
   font-size: var(--fsm);
-  font-weight: bold;
+  font-weight: 300;
   color: var(--fg);
 }
 
@@ -172,6 +172,7 @@ body {
 
 #greetings {
   font-size: var(--fss);
+  font-weight: bold;
   color: var(--fg);
 }
 
