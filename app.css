@@ -20,7 +20,7 @@
   /* Light theme  */
   --accent: #a786b5; /* Hover color */
   --bg: #f5f5f5; /* Background color */
-  --sbg: (255, 255, 255, .90); /* Cards color */
+  --sbg: (255, 255, 255, .10); /* Cards color */
 
   --fg: #0d0b0d; /* Foreground color- text */
   --sfg: #0d0b0d; /* Secondary Foreground color- text */
@@ -39,7 +39,7 @@
   --bg: #19171a; /* Background color */
   --sbg: rgba(8, 7, 8, .80); /* Cards color */
   --fg: #d8dee9; /* Foreground color */
-  --sfg: #3a3a3a; /* Secondary Foreground color */
+  --sfg: #080808; /* Secondary Foreground color */
   --imgbg: url(assets/citynighttime.gif);
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.65),
