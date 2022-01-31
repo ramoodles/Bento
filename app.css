@@ -20,7 +20,7 @@
   /* Light theme  */
   --accent: #a786b5; /* Hover color */
   --bg: #f5f5f5; /* Background color */
-  --sbg: (255, 255, 255, .9); /* Cards color */
+  --sbg: rgba(255, 255, 255, .9); /* Cards color */
 
   --fg: #0d0b0d; /* Foreground color- text */
   --sfg: #0d0b0d; /* Secondary Foreground color- text */
