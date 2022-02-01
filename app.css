@@ -131,7 +131,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: right;
-  justify-content: center;
+  justify-content: right;
   order: 3 ;
 }
 
@@ -145,7 +145,7 @@ body {
 .weather {
   display: flex;
   align-items: right;
-  justify-content: center;
+  justify-content: right;
 }
 
 .clock {
