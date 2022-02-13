@@ -56,9 +56,9 @@ const CONFIG = {
     },
     {
       id: '5',
-      name: 'tumblr',
-      icon: 'repeat',
-      link: 'https://www.tumblr.com/dashboard',
+      name: 'maps',
+      icon: 'map-pin',
+      link: 'https://www.google.com/maps/@38.9349376,-77.0239765,14z',
     },
     {
       id: '6',
