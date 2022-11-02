@@ -106,12 +106,12 @@ const CONFIG = {
         link: 'https://outlook.live.com/mail/inbox',
       },
       {
-        name: 'acnsl',
-        link: 'https://acnsl.net/meet-the-acnsl-team/',
+        name: 'slug mail',
+        link: 'https://zimbra.xmission.com/zimbra/#1',
       },
       {
-        name: 'calendar',
-        link: 'https://calendar.google.com/calendar/r',
+        name: 'slack',
+        link: 'https://app.slack.com/client/T03F55GC0/C03F55GC8',
       },
     ],    
   },
